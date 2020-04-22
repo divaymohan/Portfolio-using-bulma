@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+body {
+  font-family: 'Indie Flower', cursive;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #dbd7d7;
+}
+#para {
+  font-family:  'Indie Flower', cursive;
+  font-size: larger;
+}
+.hero {
+  
+  background-color: #855f8500;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+#a {grid-area: a;}
+#b {grid-area: b;}
+#c {grid-area: c;}
+#d {grid-area: d;}
+#e {grid-area: e;}
+
+
+
+#grid{
+  display: grid;
+  grid-template-areas: 
+    "d a b c e";
+}
+.rounded-img-container {
+  display: inline-block;
+  width: 225px;
+  height: 225px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.rounded-img {
+  width: inherit;
+  height: inherit;
+  border-radius: inherit;
+  
+  object-fit: cover;
+  object-position: center;
+}
